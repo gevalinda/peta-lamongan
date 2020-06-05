@@ -37,10 +37,10 @@ document.getElementById("dataid1").addEventListener("change", function() {
     }
 });
 
-document.getElementById("dataid2").addEventListener("change", function() {
-    if (document.getElementById(this.id).checked == true) {
-        jsonLayer.addTo(map);
-    } else {
-        jsonLayer.remove(map);
-    }
-});
+// document.getElementById("dataid2").addEventListener("change", function() {
+//     if (document.getElementById(this.id).checked == true) {
+//         jsonLayer.addTo(map);
+//     } else {
+//         jsonLayer.remove(map);
+//     }
+// });
