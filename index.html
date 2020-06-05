@@ -22,7 +22,7 @@
         </div>
         <div class="body-content">
             <div class="sidebar">
-                <!-- <div class="checkbox"><label><input type="checkbox" id="dataid1" checked>Layer Desa</label></div> -->
+                <div class="checkbox"><label><input type="checkbox" id="dataid1" checked>Layer Desa</label></div>
                 <!-- <div class="checkbox"><label><input type="checkbox" id="dataid2" checked>Layer Kecamatan</label></div> -->
             </div>
             <div id="mapid"></div>
@@ -51,6 +51,14 @@
             }
         });
         geojsonLayer.addTo(map);
+
+        document.getElementById("dataid1").addEventListener("change", function() {
+            if (document.getElementById(this.id).checked == true) {
+                geojsonLayer.addTo(map);
+            } else {
+                geojsonLayer.remove(map);
+            }
+        });
     </script>
 </body>
 
