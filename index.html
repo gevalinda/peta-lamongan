@@ -17,9 +17,7 @@
 
 <body>
     <div class="wrap">
-
         <div class="body-content">
-
             <div id="mapid"></div>
         </div>
 
@@ -44,14 +42,6 @@
             }
         });
         geojsonLayer.addTo(map);
-
-        document.getElementById("dataid1").addEventListener("change", function() {
-            if (document.getElementById(this.id).checked == true) {
-                geojsonLayer.addTo(map);
-            } else {
-                geojsonLayer.remove(map);
-            }
-        });
     </script>
 </body>
 
