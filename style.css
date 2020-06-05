@@ -1,37 +1,15 @@
-.wrap{
-	width: 100%;
-	border: solid 1px;
-	margin: 0 auto;
+.wrap {
+    width: 100%;
+    border: solid 1px;
+    margin: 0 auto;
 }
-.header{
-	background: azure;
-	border-bottom: solid 1px;
-	padding: 1px 0;
+
+.body-content {
+    height: 450px;
 }
-.body-content{
-	height: 450px;
-}
-.body-content .sidebar{
-	background: WhiteSmoke;
-	float: left;
-	width: 25%;
-	height: 100%;
-}
-.body-content #mapid{
-	float: left;
-	height: 100%;
-	width: 75%;	
-}
-.footer{
-	background: FloralWhite;
-	border-top: solid 1px;
-	padding: 1px 0;
-}
-.text-header{
-	margin: 10px 0;
-	padding: 10px;
-}
-.text-footer{
-	margin: 0;
-	padding: 10px;
+
+.body-content #mapid {
+    float: left;
+    height: 100%;
+    width: 75%;
 }
